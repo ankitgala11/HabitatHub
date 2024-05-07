@@ -5,7 +5,9 @@ export default function SignUp() {
   const [formData, setFormData] = useState({});
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(false);
+
   const navigate = useNavigate();
+
   const handleData = (e) => {
     setFormData({
       ...formData,
@@ -15,8 +17,10 @@ export default function SignUp() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
     setLoading(true);
     console.log(formData);
+
     const res = await fetch("/api/auth/signup", {
       method: "POST",
       headers: {
@@ -24,16 +28,19 @@ export default function SignUp() {
       },
       body: JSON.stringify(formData),
     });
+
     const data = await res.json();
     console.log(data);
+
     if (data.success === false) {
       setLoading(false);
       setError(data.message);
       return;
     }
+
     setLoading(false);
     setError(null);
-    Navigate("/sign-in");
+    navigate("/sign-in");
   };
 
   return (
