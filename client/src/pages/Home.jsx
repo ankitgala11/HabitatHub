@@ -11,7 +11,7 @@ export default function Home() {
 	const [saleListings, setSaleListings] = useState([]);
 	const [rentListings, setRentListings] = useState([]);
 	SwiperCore.use([Navigation]);
-	console.log(offerListings);
+	// console.log(offerListings);
 	useEffect(() => {
 		const fetchOfferListings = async () => {
 			try {
@@ -50,16 +50,16 @@ export default function Home() {
 			{/* top */}
 			<div className="flex flex-col gap-6 p-28 px-3 max-w-6xl mx-auto">
 				<h1 className="text-slate-700 font-bold text-3xl lg:text-6xl">
-					Find your next{" "}
-					<span className="text-slate-500">perfect</span>
+					Discover Your Ideal Home{" "}
+					<span className="text-slate-500">effortlessly</span>
 					<br />
-					place with ease
+					with HabitatHub
 				</h1>
 				<div className="text-gray-400 text-xs sm:text-sm">
-					Ankit Estate is the best place to find your next perfect
-					place to live.
-					<br />
-					We have a wide range of properties for you to choose from.
+					HabitatHub simplifies your search for the perfect place to
+					live.
+					<br /> Explore a diverse selection of properties tailored to
+					your needs, ensuring you find the ideal space to call home.
 				</div>
 				<Link
 					to={"/search"}
@@ -74,14 +74,13 @@ export default function Home() {
 				{offerListings &&
 					offerListings.length > 0 &&
 					offerListings.map((listing) => (
-						<SwiperSlide>
+						<SwiperSlide key={listing._id}>
 							<div
 								style={{
 									background: `url(${listing.imageUrls[0]}) center no-repeat`,
 									backgroundSize: "cover",
 								}}
 								className="h-[500px]"
-								key={listing._id}
 							></div>
 						</SwiperSlide>
 					))}
