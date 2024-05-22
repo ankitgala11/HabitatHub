@@ -49,17 +49,16 @@ export default function Home() {
 		<div>
 			{/* top */}
 			<div className="flex flex-col gap-6 p-28 px-3 max-w-6xl mx-auto">
-				<h1 className="text-slate-700 font-bold text-3xl lg:text-6xl">
-					Discover Your Ideal Home{" "}
-					<span className="text-slate-500">effortlessly</span>
+				<h1 className="text-slate-700 font-bold text-3xl lg:text-5xl">
+					Unite with Your Tribe, Find Your
+					<span className="text-slate-500"> Dream</span> Space
 					<br />
 					with HabitatHub
 				</h1>
 				<div className="text-gray-400 text-xs sm:text-sm">
-					HabitatHub simplifies your search for the perfect place to
-					live.
-					<br /> Explore a diverse selection of properties tailored to
-					your needs, ensuring you find the ideal space to call home.
+					Join us on a quest for kindred homes
+					<br /> Explore curated spaces for like-minded souls,
+					fostering communities that feel like home.
 				</div>
 				<Link
 					to={"/search"}
