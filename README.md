@@ -1,14 +1,13 @@
-Habitat (MERN Stack)
+**Habitat (MERN Stack)**
 Description
-This is a full-stack real estate website built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. It allows users to search for properties, view property details, contact agents, and manage listings.
+Habitat is a full-stack real estate website built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. It allows users to search for properties, view property details, contact agents, and manage listings.
 
 Features
 User authentication and authorization
 Property search functionality
 Property listing and detail pages
 Contact form for reaching out to landlords
-User dashboard for managing listings 
-
+User dashboard for managing listings
 Installation
 To run this project locally, follow these steps:
 
@@ -39,7 +38,7 @@ Start the development server:
 bash
 Copy code
 npm start
-The server will start at http://localhost:3000, and the client will start at http://localhost:5000.
+The server will start at http://localhost:5000, and the client will start at http://localhost:3000.
 
 Configuration
 Before running the application, you need to set up environment variables:
@@ -65,3 +64,4 @@ MongoDB
 Express.js
 React.js
 Node.js
+Feel free to customize it further as needed for your project!
