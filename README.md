@@ -1,4 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habitat (MERN Stack)</title>
+</head>
+
+<body>
     <h1>Habitat (MERN Stack)</h1>
 
     <h2>Description</h2>
@@ -60,3 +69,6 @@ JWT_SECRET=&lt;your_jwt_secret&gt;</code></pre>
 
     <h2>Acknowledgements</h2>
     <p>MongoDB<br>Express.js<br>React.js<br>Node.js</p>
+</body>
+
+</html>
