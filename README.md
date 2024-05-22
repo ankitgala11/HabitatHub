@@ -1,11 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Habitat (MERN Stack)</title>
-</head>
+
 
 <body>
     <h1>Habitat (MERN Stack)</h1>
