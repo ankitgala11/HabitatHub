@@ -35,25 +35,25 @@
     <pre><code>cd client
 npm install</code></pre>
     <ol start="5">
-        <li>Start the development server:</li>
+        <li>Start the development server in api & client:</li>
     </ol>
     <pre><code>npm run dev</code></pre>
     <p>The server will start at <a href="http://localhost:3000">http://localhost:3000</a>, and the client will start at <a href="http://localhost:5173">http://localhost:5173</a>.</p>
     <h2>Configuration</h2>
     <p>Before running the application, you need to set up environment variables:</p>
+    <p>For server:</p>
     <ol>
         <li>Create a .env file in the root directory.</li>
         <li>Define the following variables in the .env file:</li>
     </ol>
-    <pre><code>
-MONGO_URI=&lt;your_mongodb_uri&gt;
+    <pre><code>MONGO_URI=&lt;your_mongodb_uri&gt;
 JWT_SECRET=&lt;your_jwt_secret&gt;</code></pre>
+    <p>For client:</p>
     <ol>
         <li>Create a .env file in the client directory.</li>
         <li>Define the following variables in the .env file:</li>
     </ol>
-    <pre><code>
-VITE_FIREBASE_API_KEY=&lt;your_firebase_api_key&gt;</code></pre>
+    <pre><code>VITE_FIREBASE_API_KEY=&lt;your_firebase_api_key&gt;</code></pre>
     <h2>Usage</h2>
     <p>Once the application is running, you can explore the property listings, search for properties, view details, and contact landlords as needed.</p>
     <h2>Contributing</h2>
