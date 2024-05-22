@@ -20,7 +20,7 @@
     <ol>
         <li>Clone the repository:</li>
     </ol>
-    <pre><code>git clone https://github.com/yourusername/realestate-website.git</code></pre>
+    <pre><code>git clone https://github.com/ankitgala11/HabitatHub.git</code></pre>
     <ol start="2">
         <li>Navigate to the project directory:</li>
     </ol>
